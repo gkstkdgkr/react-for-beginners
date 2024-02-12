@@ -5,7 +5,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/movie">
+        <Route path="/hello">
+          <h1>Hello</h1>
+        </Route>
+        <Route path="/movie/:id">
           <Detail />
         </Route>
         <Route path="/">
@@ -17,3 +20,4 @@ function App() {
 }
 
 export default App;
+ 
